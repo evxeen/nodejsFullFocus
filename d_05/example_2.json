@@ -1,0 +1,57 @@
+{
+  "fruitBasket": {
+    "owner": {
+      "name": "John Doe",
+      "age": 34,
+      "isMember": true,
+      "contact": {
+        "email": "johndoe@example.com",
+        "phone": "+1234567890"
+      },
+      "address": {
+        "street": "123 Main St",
+        "city": "Fruitville",
+        "zipCode": 45678
+      }
+    },
+    "fruits": [
+      {
+        "name": "apple",
+        "properties": {
+          "color": "red",
+          "size": "medium",
+          "organic": true
+        },
+        "price": 1.5,
+        "quantity": 5,
+        "ratings": [5, 4, 5, 4.5]
+      },
+      {
+        "name": "banana",
+        "properties": {
+          "color": "yellow",
+          "size": "large",
+          "organic": false
+        },
+        "price": 0.75,
+        "quantity": 7,
+        "ratings": [4, 3.5, 4, 4]
+      },
+      {
+        "name": "grape",
+        "properties": {
+          "color": "purple",
+          "size": "small",
+          "organic": true
+        },
+        "pricePerKg": 3.2,
+        "weightKg": 0.8,
+        "ratings": [4.5, 5, 5]
+      }
+    ],
+    "totalCost": 14.35,
+    "purchaseDate": "2024-09-24T15:30:00Z",
+    "specialNotes": null,
+    "tags": ["organic", "fresh", "discount"]
+  }
+}
