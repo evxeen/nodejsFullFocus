@@ -24,5 +24,4 @@ http.createServer((req, res) => {
             break;
     }
     res.end();
-    console.log(1);
 }).listen(PORT);
